@@ -24,7 +24,7 @@
         </div>
         @endforeach
         <br>
-        <div class="text-center">
+        <div style="position:relative; right: 50%; left: 40%;">
                 {{$todos->links()}}
         </div>
     </div>
