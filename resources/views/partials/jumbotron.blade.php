@@ -14,7 +14,6 @@
                     <div class="card-body">
                         
                         <h4 style="position: absolute;">{{@$task->body}}</h4>
-                        {{-- <a href="{{ route('crud.edit', ['id' => $task->id]) }}"><button style="float:right; margin: 5px;" class="btn btn-primary">EDIT</button></a> --}}
                         <a  style="float:right; margin: 5px;"  class="btn btn-primary btnanimated" href="{{ route('crud.edit', ['id' => $task->id]) }}">EDIT</a>
                         {!! Form::open(['route' => ['crud.destroy', $task->id], 'method' => 'DELETE']) !!}
                             <button   style="float:right; margin: 5px;" type="submit" class="btn btn-danger btnanimated">Delete</button>
