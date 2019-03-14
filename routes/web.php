@@ -11,12 +11,10 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+
 
 Route::resource('crud', 'TodoController');
 
-
+Route::get('/', 'TodoController@index')->name('crud');
 Route::get('/crud', 'TodoController@index')->name('crud');
 Route::get('/crud/{crud}', 'TodoController@index')->name('edit');
