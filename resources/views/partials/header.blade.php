@@ -1,0 +1,1 @@
+<a href="{{url('crud')}}"><img  class="img-fluid" src="{{asset('img/rocva.png')}}"></a>
