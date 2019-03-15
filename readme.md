@@ -8,7 +8,7 @@ To use this you have to do the following:
 
 ```bash
 composer install
-composer require laravelcollective/html:^5.4.0
+composer require laravelcollective/html
 ```
 In the app/config/app.php you need to add the provider and aliasses:
 
